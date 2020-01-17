@@ -5,6 +5,10 @@ public class MAndMs extends Sweet{
         this.hasNuts = hasNuts;
     }
 
+    public boolean isHasNuts() {
+        return hasNuts;
+    }
+
     @Override
     public String toString() {
         return super.toString() +", " +

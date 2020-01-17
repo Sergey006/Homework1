@@ -43,7 +43,7 @@ public class SpecificSweetBox implements SweetBox {
         }
     }
 
-    public double getWeight() {
+    private double getWeight() {
         double sum = 0;
         for (Sweet sweet:sweets){
             sum += sweet.getWeight();
@@ -51,7 +51,7 @@ public class SpecificSweetBox implements SweetBox {
         return sum;
     }
 
-    public double getPrice() {
+    private double getPrice() {
         double sum = 0;
         for (Sweet sweet:sweets){
             sum += sweet.getPrice();
