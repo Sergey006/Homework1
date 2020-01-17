@@ -33,7 +33,7 @@ public class SpecificSweetBox implements SweetBox {
 
     @Override
     public void printPrice() {
-        System.out.println("Price of this sweetbox: " + getPrice() + " kg");
+        System.out.println("Price of this sweetbox: " + getPrice() + " $");
     }
 
     @Override
